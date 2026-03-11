@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>DJ LORENZO</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#0f0f0f;
+color:white;
+}
+
+/* MENU */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#111;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:14px;
+}
+
+/* SECTION */
+
+.container{
+display:flex;
+align-items:center;
+justify-content:center;
+height:85vh;
+gap:80px;
+padding:40px;
+}
+
+/* IMAGE */
+
+.container img{
+width:350px;
+border-radius:3px;
+}
+
+/* TEXTE */
+
+.title{
+font-size:70px;
+font-weight:bold;
+}
+
+.line{
+width:250px;
+height:2px;
+background:white;
+margin:20px 0;
+}
+
+.text{
+color:#ccc;
+font-size:14px;
+max-width:400px;
+}
+
+/* BOUTONS */
+
+.buttons{
+margin-top:30px;
+}
+
+.btn{
+padding:12px 25px;
+margin-right:10px;
+border:none;
+text-decoration:none;
+font-size:14px;
+cursor:pointer;
+}
+
+.btn1{
+background:white;
+color:black;
+}
+
+.btn2{
+background:transparent;
+border:1px solid white;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- MENU -->
+
+<nav>
+
+<div>Ir Bujitu Moris</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Photo</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- CONTENU -->
+
+<div class="container">
+
+<img src="https://scontent.ffbm1-1.fna.fbcdn.net/v/t39.30808-6/650271962_1474276514391542_2380791655583897169_n.jpg?stp=c0.107.828.828a_dst-jpg_s206x206_tt6&_nc_cat=101&ccb=1-7&_nc_sid=5df8b4&_nc_eui2=AeGllHk1XY2qSSZlw18A531qsbZztkNWnwKxtnO2Q1afApQLh5MVg1ysM3YEflRG2YAA0qc4d6uZevnW7-P5Fay7&_nc_ohc=aqnmtmwN1CYQ7kNvwEWCqrp&_nc_oc=Adk9t3oyyYpvwrMH9XBY6WjHt3_2r2YCUAe5WUx7FvW-OrvW7WzF1BOozUSYbYJxd88&_nc_zt=23&_nc_ht=scontent.ffbm1-1.fna&_nc_gid=elnFsFlpH1byt1On-CSc_A&_nc_ss=8&oh=00_AfwdsM53P8ben8Oykbb4LFS2Ttdq7aPALSDwfMvtNlVFOg&oe=69B76D7F">
+
+<div>
+
+<div class="title">
+DJ<br>
+LORENZO
+</div>
+
+<div class="line"></div>
+
+<p class="text">
+Bienvenue sur mon portfolio suis un ingénieur de son un beatmaker
+ passionné dans tout ce qui est développement web informatique
+</p>
+
+<div class="buttons">
+
+<a class="btn btn1" href="#">Discover Now</a>
+
+<a class="btn btn2" href="#">Play musique</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
